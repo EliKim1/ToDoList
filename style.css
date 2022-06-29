@@ -1,0 +1,56 @@
+html{
+    font-size: 63%;
+}
+*{
+    margin:0;
+    padding: auto;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 4;
+    font-size: 20px;
+}
+header{
+    height: 200px;
+    background-color:gold;
+    color:darkblue;
+    text-align: center;
+}
+header h1{
+    padding: 1px;
+    font-size: 160px;
+}
+main{
+    height: 120vh;
+    
+    background-image:url('images/busy5.jpg');
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-left: auto;
+    padding-top: 1rem;
+}
+ul{
+    width: 35%;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem;         /*60px*/
+    background-color: aliceblue;
+    box-shadow: gainsboro;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 16px;
+    height: 35px;
+}
+.nt{
+    color: black;
+}
+h2{
+    text-align: left;
+    height: 100px;
+}
